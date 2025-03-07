@@ -1,0 +1,185 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kalnia+Glaze:wdth,wght@100.1,100..700&family=Kdam+Thmor+Pro&family=Playwrite+NL+Guides&family=Playwrite+VN+Guides&display=swap');
+ p 
+ {
+   margin: auto;
+    width: 350px;
+    padding: 16px;
+  }
+
+ h1 
+ {
+    color : red ;
+    font-weight: 400;
+    font-style: normal;
+    text-align:justify;
+    text-shadow: 5px 5px 15px rgba(255,0,0,0.7);
+     
+    margin: auto;
+    width: 350px;
+    padding: 16px;
+ }
+ 
+ h3 
+ {
+  font-family: "Kdam Thmor Pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align:justify;
+  text-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+ }
+
+ .ombre
+ {
+  text-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+  
+ }
+
+ h2
+ {
+  font-family: "Kalnia Glaze", serif;
+  font-weight: 400;
+    font-style: normal;
+    text-align:center;
+ }
+ 
+ .important
+ {
+  font-family: "Fredericka the Great", serif;
+    color:blue; 
+  font-style: normal;
+ }
+
+ .no
+ {  
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-between;
+    font-size: 25px;
+    background-color:  black;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0);
+    padding: 50px;
+
+ }
+
+ .no img
+ {
+  width: 30%;
+
+ }
+
+ .conteneur 
+ {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+
+    grid-gap:10px;
+}
+  
+.impotant
+{
+ font-weight: bold;
+}
+
+body 
+{
+  background-color: #e8cbc0; 
+  background-attachment: fixed ;
+  color: black; 
+  margin: 0;
+  height: 100%;
+  text-align:justify;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+      
+}
+ 
+.conte
+{
+  background: #eecda3;  
+  background: -webkit-linear-gradient(to right, #eecda3, #ef629f);  
+  background: linear-gradient(to bottom, #eecda3, #ef629f); 
+  border-radius: 10px;
+}
+.contess
+{
+   width: 90%;
+   max-width: 1000px;
+   height: 70%;
+   
+   
+}
+.contes
+{
+  background: #eecda3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eecda3, #ef629f); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #eecda3, #ef629f); 
+  border-radius: 10px;
+}
+
+
+.img  
+{
+  float: right;
+}
+
+ 
+
+.imm
+{ 
+  height: auto; 
+}
+
+
+.contient
+{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+
+
+ 
+
+ 
+
+ 
+.noo
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-gap: 15px;
+     
+     
+}
+
+.noo img{
+ display: grid;
+   
+    gap:10px;
+    justify-content: space-between;
+    font-size: 25px;
+    background-color:  #fdeff9;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0);
+    padding: 50px;
+
+}
+ td,th
+ {
+  border: 2px solid black;
+ }
+
+ table{
+  padding: 15px;
+  border-collapse: collapse;
+ }
+ 
